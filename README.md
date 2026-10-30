@@ -33,10 +33,10 @@ Audio files are saved automatically in the recordings/ folder with names like re
  The Play Recording button plays the latest recording made during the current session. Older recordings remain saved in the folder, but the app doesn't currently include a file browser for choosing them.
 Project Structure
 VoiceRecorder/
-├── VoiceRecorder.py      Main application
-├── .gitignore            Files excluded from Git
-├── README.md             Project documentation
-└── recordings/           Created automatically; audio files saved here
+   VoiceRecorder.py      Main application
+  .gitignore            Files excluded from Git
+   README.md             Project documentation
+  recordings/           Created automatically: audio files saved here
 
  Audio is recorded in mono at 44,100 Hz.
  The recordings folder and audio files are ignored by Git, so your personal recordings won't be included when you push code to GitHub.
