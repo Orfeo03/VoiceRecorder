@@ -1,0 +1,22 @@
+# Virtual Environment
+.venv/
+venv/
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# PyCharm
+.idea/
+
+# Environment Variables
+.env
+.env.*
+
+# Audio Recordings
+recordings/
+*.wav
+*.mp3
+
+# Temporary Files
+*.log
